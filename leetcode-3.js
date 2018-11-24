@@ -13,7 +13,7 @@ var lengthOfLongestSubstring = function(s) {
                 temp.shift();
             }
         }
-        temp.push(value);
+        temp.push(value)
     });
     return temp.length > longest ? temp.length : longest;
 };
