@@ -53,4 +53,5 @@ let findMedianSortedArrays = function (nums1, nums2) {
         //如果A和B长度之和为偶数，则中位数为最中间两数的平均值
         return (getMedian(nums1, 0, len1, nums2, 0, len2, parseInt(size / 2)) + getMedian(nums1, 0, len1, nums2, 0, len2, parseInt(size / 2 + 1))) / 2;
 };
-findMedianSortedArrays([1,2,5,6,9],[2,3,4,7,8])
+let a = findMedianSortedArrays([1,2],[3,4])
+console.log(a)
