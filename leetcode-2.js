@@ -29,3 +29,28 @@ var addTwoNumbers = function(l1, l2) {
     };
     return result.next;
 };
+
+
+// let addTwoNumbers = function (l1, l2) {
+//     let array1 = l1.reverse()
+//     let array2 = l2.reverse()
+//     let num1 = ""
+//     let num2 = ""
+//     array1.map((value) => {
+//         num1 = num1 + value
+//     })
+//     array2.map((value) => {
+//         num2 = num2 + value
+//     })
+//     let a = parseInt(num1)
+//     let b = parseInt(num2)
+//     let c = a + b
+//     let result = c.toString()
+
+//     function replacer(match, p1, p2, p3) {
+//         return [p1, p2, p3]
+//     }
+//     result = result.replace(/(\d)(\d)(\d)/, replacer)
+//     return result
+// };
+// addTwoNumbers([2, 4, 3], [5, 6, 4]);
