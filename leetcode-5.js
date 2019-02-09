@@ -29,7 +29,8 @@ var longestPalindrome = function (s) {
     }
     return s.substring(start, end + 1); //返回最长回文子串
 };
-
+let b = longestPalindrome('babad')
+console.log(b)
 
 // let longestPalindrome = (s) => {
 //     let arr = s.split('')
